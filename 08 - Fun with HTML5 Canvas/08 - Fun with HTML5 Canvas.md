@@ -3,7 +3,7 @@
 
 #08 - Fun with HTML5 Canvas			
 
-- 원본강좌 url : [https://javascript30.com](https://javascript30.com/)													
+- 실습강좌 url : [https://javascript30.com](https://javascript30.com/)													
 
 
 
@@ -121,8 +121,6 @@ ctx.moeTo(50, 50);
 ctx.lineTo(50, 50);
 ctx.stroke();
 ```
-
-
 
 https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/stroke
 
