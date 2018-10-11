@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Reference VS Copy</title>
+</head>
+<body>
+<script>
+//복사
+
+//참조
+const wes = {
+  name: 'Wes',
+  age: 100,
+  social: {
+    twitter: '@wesbos',
+    facebook: 'wesbos.developer'
+  }
+};
+
+const wes2 = JSON.parse(JSON.stringify(wes));
+wes2.social.twitter="@solsol"
+console.log(wes, wes2)
+
+</script>
+</body>
+</html>
